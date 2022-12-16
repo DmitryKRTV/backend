@@ -1,8 +1,9 @@
 {
   "version": 2,
+  "name": "test-backend",
   "builds": [
     {
-      "src": "scr/index.ts",
+      "src": "src/index.ts",
       "use": "@vercel/node"
     }
   ],
